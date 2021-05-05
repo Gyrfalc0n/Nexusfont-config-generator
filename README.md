@@ -46,7 +46,9 @@ Rem IF PORTABLE NEXUSFONT INSTALL
 xcopy /s /y library.xml path_to_nexusfont\userdata
 ```
 If portable installation selected, set the `path_to_nexusfont` to the portable installation folder (replace with your path)
+
 6. __Place__ *nexusfont-generator.py* into the specified output_path folder so that the script can execute it
+
 7. __Configure font root folder__
 In the file *nexusfont-generator.py* set `rootdir` to the font root folder (the folder containing all your subfolders and fonts)
 ```py
@@ -54,6 +56,7 @@ In the file *nexusfont-generator.py* set `rootdir` to the font root folder (the 
 rootdir = "your root dir"
 ```
 8. __Comment or uncomment__ `generator(it)` *line 8* if you want (or not) to include subfolders from your root folder to create Nexusfont group for each one
+
 9. __It's done !__ You now just have to execute the `.bat` script file which will create the xml file according to your root folder and copy it to the configuration folder of Nexusfont.
 
 Fell free to report any issue : https://github.com/Gyrfalc0n/Nexusfont-config-generator/issues
