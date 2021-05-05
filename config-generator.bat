@@ -11,4 +11,3 @@ Rem IF BASIC NEXUSFONT INSTALL
 Rem xcopy /s /y library.xml C:\Users\%USERNAME%\AppData\Roaming\nexusfont\
 Rem IF PORTABLE NEXUSFONT INSTALL
 xcopy /s /y library.xml path_to_nexusfont\userdata
-pause
