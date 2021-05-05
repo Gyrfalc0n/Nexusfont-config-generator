@@ -5,7 +5,7 @@ IF EXIST "library.xml" (
     del library.xml
 )
 Rem "Your python3 path" "python generator file"
-"path_to_python_exe" "nexusfont.py"
+"path_to_python_exe" "nexusfont-generator.py"
 popd
 Rem IF BASIC NEXUSFONT INSTALL
 Rem xcopy /s /y library.xml C:\Users\%USERNAME%\AppData\Roaming\nexusfont\
