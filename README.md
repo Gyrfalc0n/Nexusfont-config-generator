@@ -2,6 +2,8 @@
 
 Script to automatically generate the library.xml file for configuring Nexusfont to take into account folders, subfolders and fonts from a single location. No need to update its configuration from the software to take into account new font folders.
 
+Nexusfont is a lightweight software that allows you to enable or disable fonts on the fly, search for fonts from different locations including network folders. This is useful when a number of computers use the same fonts from a network directory for example, or when you need to use one font rather than another with the same name.
+
 ![Image](https://github.com/Gyrfalc0n/Nexusfont-config-generator/blob/main/images/imgingest-8613251024470439574.png?raw=true)
 
 ## Use
