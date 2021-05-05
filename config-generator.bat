@@ -7,3 +7,4 @@ IF EXIST "library.xml" (
 )
 %python_path% "nexusfont-generator.py"
 popd
+xcopy /s /y %output_path%\library.xml C:\Users\%USERNAME%\AppData\Roaming\nexusfont\
