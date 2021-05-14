@@ -1,10 +1,25 @@
-# Nexusfont-config-generator
+<p align="center"
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+![GitHub last commit](https://img.shields.io/github/last-commit/Gyrfalc0n/Projet-EMS-RP?style=for-the-badge)
+[![License][license-shield]][license-url]
+
+  </p>
+  
+  <br />
+<p align="center">
+  <a href="https://github.com/Gyrfalc0n/Projet-EMS-RP">
+    <img src="https://github.com/Gyrfalc0n/Nexusfont-config-generator/blob/main/images/imgingest-8613251024470439574.png" alt="Logo" width="100" height="100">
+  </a> </p>
+   <h1 align="center">Nexusfont-config-generator</h1>
+  
 
 Script to automatically generate the library.xml file for configuring Nexusfont to take into account folders, subfolders and fonts from a single location. No need to update its configuration from the software to take into account new font folders.
 
 Nexusfont is a lightweight software that allows you to enable or disable fonts on the fly, search for fonts from different locations including network folders. This is useful when a number of computers use the same fonts from a network directory for example, or when you need to use one font rather than another with the same name.
-
-![Image](https://github.com/Gyrfalc0n/Nexusfont-config-generator/blob/main/images/imgingest-8613251024470439574.png?raw=true)
 
 ## Use
 
@@ -62,3 +77,15 @@ rootdir = "your root dir"
 9. __It's done !__ You now just have to execute the `.bat` script file which will create the xml file according to your root folder and copy it to the configuration folder of Nexusfont.
 
 Fell free to report any issue : https://github.com/Gyrfalc0n/Nexusfont-config-generator/issues
+
+
+[contributors-shield]: https://img.shields.io/github/contributors/Gyrfalc0n/Nexusfont-config-generator.svg?style=for-the-badge
+[contributors-url]: https://github.com/Gyrfalc0n/Nexusfont-config-generator/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Gyrfalc0n/Nexusfont-config-generator.svg?style=for-the-badge
+[forks-url]: https://github.com/Gyrfalc0n/Nexusfont-config-generator/network/members
+[stars-shield]: https://img.shields.io/github/stars/Gyrfalc0n/Nexusfont-config-generator.svg?style=for-the-badge
+[stars-url]: https://github.com/Gyrfalc0n/Nexusfont-config-generator/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Gyrfalc0n/Nexusfont-config-generator.svg?style=for-the-badge
+[issues-url]: https://github.com/Gyrfalc0n/Nexusfont-config-generator/issues
+[license-shield]: https://img.shields.io/github/license/Gyrfalc0n/Nexusfont-config-generator.svg?style=for-the-badge
+[license-url]: https://github.com/Gyrfalc0n/Nexusfont-config-generator/blob/master/LICENSE
